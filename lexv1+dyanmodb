@@ -52,7 +52,7 @@ def balanceenquiry(Accountnumber):
             return result
         else:
             #print("didnt find the account")
-            message="Sorry I can't find your details in our records please contact our support center on 8083829227"
+            message="Sorry I can't find your details in our records please contact our support center on 123456"
             result = {
                 "dialogAction": {
                 "type": "Close",
